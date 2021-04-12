@@ -219,21 +219,21 @@ public class Main {
 										System.out.println("Entre com a Nota 3: ");
 										float nota3 = ler.nextFloat();
 
-										if(nota1 > 0 && nota1 < 10) {
+										if(nota1 >= 0 && nota1 <= 10) {
 											listaAlunos.get(index - 1).setNota1(nota1);
 										}
 										else {
 											System.out.println("Nota 1 não foi adicionada, o número inserido é inválido");
 										}
 										
-										if(nota2 > 0 && nota2 < 10) {
+										if(nota2 >= 0 && nota2 <= 10) {
 										listaAlunos.get(index - 1).setNota2(nota2);
 										}
 										else {
 											System.out.println("Nota 2 não foi adicionada, o número inserido é inválido");
 										}
 										
-										if(nota3 > 0 && nota3 < 10) {
+										if(nota3 >= 0 && nota3 <= 10) {
 										listaAlunos.get(index - 1).setNota3(nota3); break;
 										}
 										else {
